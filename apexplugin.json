@@ -1,7 +1,7 @@
 {
    "name": "UC - Timing Actions",
-   "version": "22.1.0",
-   "description": "Debounce, throttle, delay, and a timer dynamic action to fine-control the execution of dynamic actions.\r\n\u003Ch4\u003EFree Plug-in under MIT License\u003C\/h4\u003E\r\n\u003Cp\u003E\r\nAll UC plug-ins are released under MIT License, which essentially means it is free for everyone to use, no matter if commercial or private use. \r\n\u003C\/p\u003E\r\n\u003Ch4\u003EOverview\u003C\/h4\u003E\r\n\u003Cp\u003EThe \u003Cstrong\u003EUC - Timing Actions\u003C\/strong\u003E dynamic action plug-in is our solution for controling the timing and frequency of the actions contained within a Dynamic Action such as debounce, delay or throttle. It also includes a Timer to automate the repetition of your dynamic actions. \r\n\u003C\/p\u003E",
+   "version": "23.1",
+   "description": "Free Plug-in under MIT License, which means it is free for everyone to use, no matter if for commercial or private use. The UC Timing Actions dynamic action plug-in is our solution for controlling the timing and frequency of the actions contained within a Dynamic Action such as debounce, delay, or throttle. It also includes a Timer to automate the repetition of your dynamic actions.",
    "keywords": [
       "throttle",
       "debounce",
@@ -11,20 +11,20 @@
    "license": "MIT",
    "commercial": "No",
    "commercially_supported": "Yes",
-   "homepage": "https:\/\/github.com\/foex-open-source\/uc-timing-actions",
+   "homepage": "https://www.plug-ins-pro.com/",
    "bugs": {
-      "url": "https:\/\/github.com\/foex-open-source\/uc-timing-actions\/issues",
-      "email": "support@uc.world"
+      "url": "https://github.com/plug-ins-pro/timing_actions/issues",
+      "email": "info@plug-ins-pro.com"
    },
    "author": {
-      "name": "UC GmbH",
-      "email": "office@uc.world",
-      "url": "https:\/\/foex.at\/uc\/",
-      "twitter": "@foexopensource"
+      "name": "United Codes",
+      "email": "info@plug-ins-pro.com",
+      "url": "https://www.plug-ins-pro.com/",
+      "twitter": "@Plug_ins_Pro"
    },
    "repository": {
       "type": "git",
-      "url": "https:\/\/github.com\/foex-open-source\/uc-timing-actions.git"
+      "url": "https://github.com/plug-ins-pro/timing_actions"
    },
    "oracle": {
       "versions": [
@@ -32,7 +32,8 @@
          "12.2.0.1",
          "18.0.0.0",
          "19.0.0.0",
-         "21.0.0.0"
+         "21.0.0.0",
+         "23.0.0.0"
       ],
       "apex": {
          "versions": [
@@ -41,13 +42,15 @@
             "20.2.0",
             "21.1.0",
             "21.2.0",
-            "22.1.0"
+            "22.1.0",
+            "23.1.0",
+            "23.2.0"
          ],
          "plugin": {
             "internalName": "UNITEDCODES_TIMING_ACTIONS",
             "type": "dynamic action",
-            "demo": "https:\/\/uc.world\/ords\/f?p=10000:1060",
-            "previewImage": "https:\/\/uc.world\/ords\/uc_master_ws\/uc-image\/COM.UC.TIMING_ACTIONS"
+            "demo" : "https://www.plug-ins-pro.com/ords/pluginspro_web/r/pluginspro_free/",
+            "previewImage": "https://unitedcodes.s3.eu-west-1.amazonaws.com/plugin/images/UC_TIMING_ACTIONS.png"
          }
       }
    }
